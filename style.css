@@ -5,7 +5,7 @@
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background-color: #3A3F58 ;
+    background-color: #00FF00 ;
     width: 7%;
     height: 100vh;
     max-height: 100vh;
@@ -17,7 +17,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    background-color: #3A3F58;
+    background-color: #00FF00;
     width: 7%;
     height: 100vh;
     max-height: 100vh;
@@ -27,7 +27,7 @@
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background-color: #3A3F58;
+    background-color: #00FF00;
     height: 7vw;
     width: 100vw;
     max-width: 100vw;
@@ -37,7 +37,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: #3A3F58 ;
+    background-color: #00FF00 ;
     height: 7vw;
     width: 100vw;
     max-width: 100vw;
