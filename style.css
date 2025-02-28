@@ -61,7 +61,7 @@
     position: absolute;
     top: 20px; /* Adjust as needed */
     left: 50%;
-    transform: translateX(-50%);
+    
     z-index: 1;
     color: white;
     font-size: 4vw;
