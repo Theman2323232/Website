@@ -57,14 +57,17 @@
 
 .text
 {
+   
     position: absolute;
-    bottom: 100px;
-    left: 20;
+    top: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
     color: white;
     font-size: 4vw;
     margin: 0;
-    opacity: 0.90; 
+    opacity: 0.90;
+
     
 }
 
