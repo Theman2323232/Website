@@ -58,7 +58,7 @@
 .text
 {
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
     left: 20;
     z-index: 1;
     color: white;
