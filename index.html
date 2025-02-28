@@ -13,24 +13,26 @@
         
         <div class="Links"><P><a href ="jumpy.html">Jumpy Game</a></P></div>
 
-        <div class="TypingText"></div>
+        <div class="text"></div>
+
         <script>
-            const div = document.querySelector(".TypingText");
-            const text = "Welcome";
-
-            function textTypingEffect(element, text i =0)
-                {
-                    element.textContent +=text[i]
-
-                    if(i=== text.length - 1)
-                    {
-                        return;
-                    }
-                    textTypingEffect(element,text,i+1);
+            const div = document.querySelector(".text");
+            const text = "This is how you create a text typing effect with JavaScript 🤓";
+        
+            function textTypingEffect(element, text, i = 0) {
+                element.textContent += text[i];
+        
+                // If we reached the end of the string
+                if (i === text.length - 1) {
+                    return;
                 }
-
-            textTypingEffect(element,text);
+        
+                setTimeout(() => textTypingEffect(element, text, i + 1), 50);
+            }
+        
+            textTypingEffect(div, text);
         </script>
+
 
         <div class ="background"> </div>
         <div class ="box"> </div>
