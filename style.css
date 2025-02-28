@@ -49,10 +49,10 @@
     top: -40px;
     left: 20px;
     z-index: 1;
-    color: white;
+    color: black;
     font-size: 4vw;
     margin: 0;
-    opacity: 0.75; 
+    opacity: 0.90; 
 }
 
 .background
