@@ -60,7 +60,7 @@
     position: absolute;
     bottom: 40px;
     left: 20;
-    z-index: 2;
+    z-index: 1;
     color: black;
     font-size: 4vw;
     margin: 0;
