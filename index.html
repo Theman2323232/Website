@@ -13,8 +13,24 @@
         
         <div class="Links"><P><a href ="jumpy.html">Jumpy Game</a></P></div>
 
-        <div class="TypingText"><h1>Welcome!</h1></div>
-        
+        <div class="TypingText"></div>
+        <script>
+            const div = document.querySelector(".TypingText");
+            const text = "Welcome";
+
+            function textTypingEffect(element, text i =0)
+                {
+                    element.textContent +=text[i]
+
+                    if(i=== text.length - 1)
+                    {
+                        return;
+                    }
+                    textTypingEffect(element,text,i+1);
+                }
+
+            textTypingEffect(element,text);
+        </script>
 
         <div class ="background"> </div>
         <div class ="box"> </div>
