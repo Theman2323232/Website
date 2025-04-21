@@ -97,6 +97,8 @@
     max-height: 100vh;
     color: white;
     z-index: 1;
+    border: 2px solid red;
+
 
 
 }
