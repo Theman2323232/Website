@@ -96,6 +96,8 @@
     max-width: 100vw;
     max-height: 100vh;
     color: white;
+    z-index: 1;
+
 
 }
 .Links1{
