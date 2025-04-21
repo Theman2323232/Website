@@ -15,24 +15,7 @@
 
         <div class="text"></div>
 
-        <script>
-            const div = document.querySelector(".text");
-            const text = "Hello and welcome!";
         
-            function textTypingEffect(element, text, i = 0) {
-                element.textContent += text[i];
-        
-                // If we reached the end of the string
-                if (i === text.length - 1) {
-                    return;
-                }
-        
-                setTimeout(() => textTypingEffect(element, text, i + 1), 150);
-            }
-        
-            textTypingEffect(div, text);
-        </script>
-
 
         <div class ="background"> </div>
         <div class ="box"> </div>
