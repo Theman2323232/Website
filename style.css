@@ -45,15 +45,15 @@
 
 .header
 {
-    position: absolute;
-    font-family: 'Quicksand', sans-serif;
-    bottom: 0px;
+    position: fixed;
+    top: 20px;
     left: 20px;
+    font-family: 'Quicksand', sans-serif;
     z-index: 1;
     color: white;
     font-size: 4vw;
     margin: 0;
-    opacity: 0.90; 
+    opacity: 0.9;
 }
 
 
