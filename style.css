@@ -47,13 +47,14 @@
 {
     position: absolute;
     font-family: 'Quicksand', sans-serif;
-    bottom: 50px;
+    bottom: 0px;
     left: 20px;
     z-index: 1;
     color: black;
     font-size: 4vw;
     margin: 0;
     opacity: 0.90; 
+    color:white
 }
 
 
