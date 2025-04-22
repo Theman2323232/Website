@@ -46,7 +46,7 @@
 .header
 {
     position: fixed;
-    top: 20px;
+    top: 10px;
     left: 20px;
     font-family: 'Quicksand', sans-serif;
     z-index: 1;
